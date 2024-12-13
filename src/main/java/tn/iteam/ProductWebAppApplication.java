@@ -19,7 +19,7 @@ public class ProductWebAppApplication {
 
     //begin init method
     @Bean
-    CommandLineRunner init(ProduitRepository produitRepository) {
+   public CommandLineRunner init(ProduitRepository produitRepository) {
         return args -> {
             //using default constructor
             Produit p1 = new Produit();
